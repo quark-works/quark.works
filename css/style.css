@@ -17,12 +17,21 @@ body {
 
 /* navegación */
 
-.name {
+.qw-logo {
 	text-align: center;
-	margin: 50px;
-	font-size: 5vh;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 250px;
+	padding: 10px;
+}
+
+.qw-img {
+	text-align: center;
+	width: 100%;
 }
 
 main {
+	padding-top: 30px;
 	text-align: center;
+	font-size: 4vh;
 }
