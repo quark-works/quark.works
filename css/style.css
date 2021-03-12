@@ -1,0 +1,28 @@
+/* Colores */
+
+:root {
+
+	--jet: #333333;
+	--davys-grey: #5c5c5c;
+	--spanish-gray: #9e9e9e;
+	--silver: #c3c3c3;
+	--cultured: #f1f0ef;
+}
+
+body {
+	font-family: 'Bitter', serif;
+	color: var(--cultured);
+	background-color: var(--jet);
+}
+
+/* navegación */
+
+.name {
+	text-align: center;
+	margin: 50px;
+	font-size: 5vh;
+}
+
+main {
+	text-align: center;
+}
