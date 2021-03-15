@@ -15,8 +15,6 @@ body {
 	background-color: var(--fogra);
 }
 
-/* navegación */
-
 .qw-logo {
 	text-align: center;
 	margin-left: auto;
@@ -36,4 +34,13 @@ main {
 	padding-top: 30px;
 	text-align: center;
 	font-size: 4vh;
+}
+
+a {
+	color: var(--keppel);
+	
+}
+
+a:hover {
+	color: var(--keppel);
 }
