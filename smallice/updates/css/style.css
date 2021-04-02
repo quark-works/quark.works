@@ -8,14 +8,14 @@
 	padding: 10px;
 }
 
-.smAllice-img {
-	text-align: center;
-	width: 95%;
-}
 .smAllice-div > img {
 	padding: 10px;
 }
 
+.smAllice-img {
+	text-align: center;
+	width: 95%;
+}
 
 .fer-smallice{
 	margin-top: 30px;
@@ -52,8 +52,4 @@ h4 {
 .collapse-sencillo {
 	text-align: center;
 	padding: 10px;
-}
-
-.tachado {
-	text-decoration:line-through;
 }
