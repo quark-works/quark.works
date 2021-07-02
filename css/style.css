@@ -44,3 +44,7 @@ a {
 a:hover {
 	color: var(--keppel);
 }
+
+.img-redes{
+	width: 30px;
+}

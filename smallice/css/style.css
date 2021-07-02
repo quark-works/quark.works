@@ -57,3 +57,8 @@ h4 {
 .tachado {
 	text-decoration:line-through;
 }
+
+.comprar-smallice {
+	text-align: center;
+	font-size: 30px;
+}
