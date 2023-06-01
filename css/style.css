@@ -2,7 +2,7 @@
 
 :root {
 
-	--fogra: #070707;
+	--fogra: #1a1a1a;
 	--charcoal: #40434E;
 	--timberwolf: #D3D0CB;
 	--platinum: #E7E5DF;
@@ -37,7 +37,7 @@ body {
 main {
 	padding-top: 30px;
 	text-align: center;
-	font-size: 4vh;
+	font-size: 3vh;
 }
 
 a {
@@ -49,6 +49,6 @@ a:hover {
 }
 
 .img-redes{
-	width: 60px;
+	width: 50px;
 	padding: 3%;
 }
