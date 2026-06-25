@@ -1,8 +1,11 @@
 backend:
-  name: git-gateway
-  branch: main # Branch to update (optional; defaults to master)
+  name: proxy
+  proxy_url: https://hadron.tail859af.ts.net/api/v1
+  base_url: https://hadron.tail859af.ts.net
 
-media_folder: "assets/uploads"
+local_backend: true
+
+media_folder: "assets/images/uploads"
 
 collections:
   - name: "posts"
@@ -11,18 +14,21 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "posts"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "portfolio"
     label: "Portfolio"
     folder: "_portfolio"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{slug}}"
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "single"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - { label: "Layout", name: "layout", widget: "hidden", default: "single" }
+      - { label: "Title", name: "title", widget: "string" }
+      - label: "Header"
+        name: "header"
+        widget: "object"
+        fields:
+          - { label: "Teaser Image", name: "teaser", widget: "image" }
+      - { label: "Body", name: "body", widget: "markdown" }

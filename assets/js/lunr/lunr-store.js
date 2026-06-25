@@ -9,7 +9,7 @@ var store = [{
         "excerpt":"10u ortho PCB with RGB per key      Features:     Powered by a rp2040 IC.   RGB per key with RGB matrix implementation.   Runs QMK firmware, VIAL compatible.   Firmware:     QMK Config   Availability:     Acai PCBs are available in CBKBD.   Pictures        ","categories": [],
         "tags": [],
         "url": "/portfolio/2025-02-12-acai/",
-        "teaser": "/assets/pcbs/acaitop.png"
+        "teaser": "/assets/pcbs/acaibottom.png"
       },{
         "title": "QAZ RP2040",
         "excerpt":"QAZ PCB with an integrated rp2040      Features:     Powered by a rp2040 IC.   Available in MX hotswap and soldered, as well as a ks-33 variant.   Runs QMK firmware, VIAL compatible.   Firmware:     QMK Config   Availability:     Available in CBKBD.  ","categories": [],
@@ -22,6 +22,12 @@ var store = [{
         "tags": [],
         "url": "/portfolio/2025-08-09-delaeveryvan/",
         "teaser": "/assets/pcbs/delaeverybottom.png"
+      },{
+        "title": "NULL65",
+        "excerpt":"65% PCB for tray mount keyboards. Designed for nulldesignco.      Features:      Powered by a rp2040.   Per-key LED.   Two version: Hotswap ANSI and Hotswap ISO.   Runs QMK firmware, with VIA support merged.   Availability:      For sale in nulldesignco.  ","categories": [],
+        "tags": [],
+        "url": "/portfolio/null65/",
+        "teaser": "/assets/images/uploads/scr-20260625-lmdr.png"
       },{
         "title": "Hello, world!",
         "excerpt":"This is a sample post to have something in my main page.  ","categories": [],
